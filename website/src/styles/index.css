@@ -1,0 +1,15 @@
+/* Main styles index - Import all component-specific styles */
+
+/* Global styles and utilities */
+@import './globals.css';
+
+/* Component styles */
+@import './Header.css';
+@import './Contact.css';
+
+/* Section styles */
+@import './VideoLanding.css';
+@import './Products.css';
+@import './ProductPage.css';
+@import './Cart.css';
+@import './Footer.css'; 

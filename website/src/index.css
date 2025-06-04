@@ -1,3 +1,6 @@
+/* Import our organized styles */
+@import './styles/index.css';
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;

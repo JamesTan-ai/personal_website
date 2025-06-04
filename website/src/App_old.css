@@ -1,0 +1,20 @@
+/*
+  NOTICE: This file has been reorganized into modular CSS files.
+  
+  The original App.css has been split into:
+  
+  📁 src/styles/
+  ├── index.css        # Main import file
+  ├── globals.css      # Global styles & utilities  
+  ├── Header.css       # Header component
+  ├── Contact.css      # Contact page
+  ├── VideoLanding.css # Video landing section
+  ├── Products.css     # Products section & grid
+  ├── ProductPage.css  # Product detail page
+  ├── Cart.css         # Cart page & dropdown
+  └── Footer.css       # Footer & about section
+  
+  All styles are now imported through src/styles/index.css
+  
+  See ORGANIZATION_README.md for full details.
+*/ 

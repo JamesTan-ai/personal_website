@@ -1,0 +1,266 @@
+/* Contact Page Styles */
+.contact-page {
+  min-height: 100vh;
+  background: #fdfcfb;
+}
+
+.contact-main {
+  padding: 3rem 0 6rem;
+}
+
+.contact-header-section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-page-title {
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: #2c2c2c;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.contact-content-layout {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* Contact Form */
+.contact-form-section {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(228, 228, 231, 0.3);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.form-input,
+.form-textarea {
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(196, 173, 172, 0.3);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+  background: #fdfcfb;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  outline: none;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #c4adac;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(196, 173, 172, 0.1);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #888;
+  font-weight: 300;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+.contact-submit-btn {
+  background: #c4adac;
+  color: white;
+  border: none;
+  padding: 1.2rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  margin-top: 1rem;
+}
+
+.contact-submit-btn:hover {
+  background: #b39998;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(196, 173, 172, 0.3);
+}
+
+/* Contact Information */
+.contact-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-info-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(228, 228, 231, 0.3);
+}
+
+.contact-info-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(240, 240, 240, 0.6);
+}
+
+.contact-info-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.contact-info-icon {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+  opacity: 0.7;
+}
+
+.contact-info-content h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.contact-info-content p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* FAQ Section */
+.contact-faq-section {
+  background: rgba(248, 247, 246, 0.5);
+  border-radius: 12px;
+  padding: 2.5rem;
+  border: 1px solid rgba(228, 228, 231, 0.3);
+}
+
+.faq-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(240, 240, 240, 0.6);
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.faq-item h4 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.faq-item p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.6;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contact-content-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-main {
+    padding: 2rem 0 4rem;
+  }
+  
+  .contact-page-title {
+    font-size: 2rem;
+  }
+  
+  .contact-form-section,
+  .contact-info-card,
+  .contact-faq-section {
+    padding: 2rem;
+  }
+  
+  .contact-content-layout {
+    gap: 2rem;
+  }
+  
+  .form-input,
+  .form-textarea {
+    padding: 0.875rem 1.25rem;
+  }
+  
+  .contact-submit-btn {
+    padding: 1rem 2rem;
+  }
+} 
